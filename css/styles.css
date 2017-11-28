@@ -1,0 +1,55 @@
+*:not(body):not(html) {
+  box-sizing:border-box;
+  border:1px dashed #000;
+}
+
+div {
+  min-height: 100px;
+}
+
+body {
+  margin: 0;
+}
+
+
+@media screen and (max-width:599px) {
+  body{
+    background-color: pink;
+  }
+
+  .header {
+    width: 100vw;
+    height: 15vh;
+  }
+
+  .gallery {
+    width: 94vw;
+    margin-top: 5vh;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .thumbnail {
+    margin-bottom: 2vh;
+  }
+
+}
+
+/*tablet*/
+@media screen and (min-width:600px) and (max-width: 1199px) {
+  body{
+    background-color: orange;
+
+  }
+
+}
+
+/*desktop*/
+@media screen and (min-width:1200px){
+  body{
+    background-color: lightblue;
+
+  }
+
+
+}
